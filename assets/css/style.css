@@ -1,0 +1,9 @@
+.mydivs {
+	margin: 15px;
+	box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.58);
+    opacity: .90;
+}
+
+#fix {
+	margin-top: -15px;
+}
