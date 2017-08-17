@@ -4,10 +4,44 @@
     opacity: .90;
 }
 
-#fix {
+/*#fix {
 	margin-top: -15px;
-}
+}*/
 
 body {
 	font-weight: bold;
+}
+
+h1.display-3:after {
+	content:url('../images/hang-man.png');
+	position: relative;
+    top: 84px;
+    left: -50px;
+}
+
+h4.guess-head.lead {
+		font-size: 1.5rem;
+	}
+
+@media only screen and (max-width:414px) {
+	h4.guess-head {
+		margin-top:10px;
+	}
+	h1.display-3 {
+		font-size:2rem;
+	}
+	h1.display-3:after {
+       top: 77px;
+    left: -35px;
+}
+	.card.mydivs {
+		margin: 7px 15px;
+			}
+}
+
+@media (min-width:601px) {
+
+.gage-height .card {
+	height:150px;
+}
 }
